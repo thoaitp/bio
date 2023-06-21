@@ -1,0 +1,340 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Tilt Warp', cursive;
+}
+
+body {
+    background-color: #E4EBF5;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+.wrap {
+    width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0.8rem 0.8rem 1.4rem #c8d0e7, -0.2rem -0.2rem 1.8rem #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bio {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bio-banner {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 260px;
+    left: 0;
+    right: 0;
+    box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #fff;
+    z-index: -1;
+}
+
+.bio-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bio-avatar {
+    box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.bio-avatar .bio-avatar__inner {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio-avatar .bio-avatar__inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.bio-name__txt {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #6d5dfc;
+    text-align: center;
+}
+
+.bio-name__icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    display: inline-flex;
+}
+
+.bio-name__icon img {
+    width: 100%;
+}
+
+.bio-des {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #6d5dfc;
+    font-size: 16px;
+}
+
+.bio-info {
+    display: flex;
+    justify-content: center;
+}
+
+.info-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: -15px;
+}
+
+.info-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.info__link {
+    display: flex;
+    align-items: center;
+    box-shadow: 0.8rem 0.8rem 1.4rem #c8d0e7, -0.2rem -0.2rem 1.8rem #fff;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 10px 10px 30px;
+    border-radius: 10px;
+    width: 300px;
+    transition: all 1s;
+}
+
+.info__link:hover {
+    box-shadow: inset 0.2rem 0.2rem 0.5rem #c8d0e7, inset -0.2rem -0.2rem 0.5rem #fff;
+}
+
+.info__link .icon {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.info__link .icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info__link .title {
+    color: #6d5dfc;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.bio-snows {
+    position: absolute;
+    left: -50%;
+    width: 100%;
+    height: 100px;
+}
+
+.bio-snows__1 {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(1px);
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    top: -1000px;
+    box-shadow: 20px 20px 1px #fff, 60px 40px 1px #fff, 160px 135px 1px #fff, 260px 240px 1px #fff, 360px 340px 1px #fff, 460px 440px 1px #fff, 560px 340px 1px #fff, 660px 240px 1px #fff, 760px 140px 1px #fff, 260px 640px 1px #fff, 160px 340px 1px #fff, 260px 440px 1px #fff, 760px 140px 1px #fff, 860px 40px 1px #fff, 760px 140px 1px #fff, 1260px 120px 1px #fff, 1460px 10px 1px #fff, 1560px 30px 1px #fff, 1590px 124px 1px #fff, 1680px 415px 1px #fff, 1720px 335px 1px #fff, 1000px 212px 1px #fff, 990px 311px 1px #fff, 888px 122px 1px #fff, 765px 10px 1px #fff, 635px 15px 1px #fff, 554px 111px 1px #fff, 455px 222px 1px #fff, 125px 105px 1px #fff, 275px 96px 1px #fff, 245px 40px 1px #fff, 230px 70px 1px #fff, 285px 17px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 430px 210px 1px #fff, 523px 23px 1px #fff, 1650px 335px 1px #fff, 1777px 123px 1px #fff, 1800px 222px 1px #fff, 1360px 140px 1px #fff;
+    animation: snowfall 7s linear infinite;
+}
+
+.bio-snows__1:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    background-color: #fff;
+    left: 200px;
+    top: -150px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 1px #fff, 60px 40px 1px #fff, 160px 135px 1px #fff, 260px 240px 1px #fff, 360px 340px 1px #fff, 460px 440px 1px #fff, 560px 340px 1px #fff, 660px 240px 1px #fff, 760px 140px 1px #fff, 260px 640px 1px #fff, 160px 340px 1px #fff, 260px 440px 1px #fff, 760px 140px 1px #fff, 860px 40px 1px #fff, 760px 140px 1px #fff, 1260px 120px 1px #fff, 1460px 10px 1px #fff, 1560px 30px 1px #fff, 1590px 124px 1px #fff, 1680px 415px 1px #fff, 1720px 335px 1px #fff, 1000px 212px 1px #fff, 990px 311px 1px #fff, 888px 122px 1px #fff, 765px 10px 1px #fff, 635px 15px 1px #fff, 554px 111px 1px #fff, 455px 222px 1px #fff, 125px 105px 1px #fff, 275px 96px 1px #fff, 245px 40px 1px #fff, 230px 70px 1px #fff, 285px 17px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 430px 210px 1px #fff, 523px 23px 1px #fff, 1650px 335px 1px #fff, 1777px 123px 1px #fff, 1800px 222px 1px #fff, 1360px 140px 1px #fff;
+
+}
+
+.bio-snows__1:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    background-color: #fff;
+    left: 300px;
+    top: -250px;
+    border-radius: 50%;
+    filter: blur(1px);
+    box-shadow: 20px 20px 1px #fff, 60px 40px 1px #fff, 160px 135px 1px #fff, 260px 240px 1px #fff, 360px 340px 1px #fff, 460px 440px 1px #fff, 560px 340px 1px #fff, 660px 240px 1px #fff, 760px 140px 1px #fff, 260px 640px 1px #fff, 160px 340px 1px #fff, 260px 440px 1px #fff, 760px 140px 1px #fff, 860px 40px 1px #fff, 760px 140px 1px #fff, 1260px 120px 1px #fff, 1460px 10px 1px #fff, 1560px 30px 1px #fff, 1590px 124px 1px #fff, 1680px 415px 1px #fff, 1720px 335px 1px #fff, 1000px 212px 1px #fff, 990px 311px 1px #fff, 888px 122px 1px #fff, 765px 10px 1px #fff, 635px 15px 1px #fff, 554px 111px 1px #fff, 455px 222px 1px #fff, 125px 105px 1px #fff, 275px 96px 1px #fff, 245px 40px 1px #fff, 230px 70px 1px #fff, 285px 17px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 430px 210px 1px #fff, 523px 23px 1px #fff, 1650px 335px 1px #fff, 1777px 123px 1px #fff, 1800px 222px 1px #fff, 1360px 140px 1px #fff;
+}
+
+.bio-snows__2 {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(2px);
+    background-color: #fff;
+    width: 9px;
+    height: 9px;
+    top: -850px;
+    left: 123px;
+    box-shadow: 20px 20px 1px #fff, 60px 40px 1px #fff, 160px 135px 1px #fff, 260px 240px 1px #fff, 360px 340px 1px #fff, 460px 440px 1px #fff, 560px 340px 1px #fff, 660px 240px 1px #fff, 760px 140px 1px #fff, 260px 640px 1px #fff, 160px 340px 1px #fff, 260px 440px 1px #fff, 760px 140px 1px #fff, 860px 40px 1px #fff, 760px 140px 1px #fff, 1260px 120px 1px #fff, 1460px 10px 1px #fff, 1560px 30px 1px #fff, 1590px 124px 1px #fff, 1680px 415px 1px #fff, 1720px 335px 1px #fff, 1000px 212px 1px #fff, 990px 311px 1px #fff, 888px 122px 1px #fff, 765px 10px 1px #fff, 635px 15px 1px #fff, 554px 111px 1px #fff, 455px 222px 1px #fff, 125px 105px 1px #fff, 275px 96px 1px #fff, 245px 40px 1px #fff, 230px 70px 1px #fff, 285px 17px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 430px 210px 1px #fff, 523px 23px 1px #fff, 1650px 335px 1px #fff, 1777px 123px 1px #fff, 1800px 222px 1px #fff, 1360px 140px 1px #fff;
+    animation-delay: -3s;
+    animation: snowfall 9s linear infinite;
+}
+
+.bio-snows__2:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    background-color: #fff;
+    left: 200px;
+    top: -350px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 1px #fff, 60px 40px 1px #fff, 160px 135px 1px #fff, 260px 240px 1px #fff, 360px 340px 1px #fff, 460px 440px 1px #fff, 560px 340px 1px #fff, 660px 240px 1px #fff, 760px 140px 1px #fff, 260px 640px 1px #fff, 160px 340px 1px #fff, 260px 440px 1px #fff, 760px 140px 1px #fff, 860px 40px 1px #fff, 760px 140px 1px #fff, 1260px 120px 1px #fff, 1460px 10px 1px #fff, 1560px 30px 1px #fff, 1590px 124px 1px #fff, 1680px 415px 1px #fff, 1720px 335px 1px #fff, 1000px 212px 1px #fff, 990px 311px 1px #fff, 888px 122px 1px #fff, 765px 10px 1px #fff, 635px 15px 1px #fff, 554px 111px 1px #fff, 455px 222px 1px #fff, 125px 105px 1px #fff, 275px 96px 1px #fff, 245px 40px 1px #fff, 230px 70px 1px #fff, 285px 17px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 430px 210px 1px #fff, 523px 23px 1px #fff, 1650px 335px 1px #fff, 1777px 123px 1px #fff, 1800px 222px 1px #fff, 1360px 140px 1px #fff;
+
+}
+
+.bio-snows__2:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    background-color: #fff;
+    left: 300px;
+    top: -450px;
+    border-radius: 50%;
+    filter: blur(1px);
+    box-shadow: 20px 20px 1px #fff, 60px 40px 1px #fff, 160px 135px 1px #fff, 260px 240px 1px #fff, 360px 340px 1px #fff, 460px 440px 1px #fff, 560px 340px 1px #fff, 660px 240px 1px #fff, 760px 140px 1px #fff, 260px 640px 1px #fff, 160px 340px 1px #fff, 260px 440px 1px #fff, 760px 140px 1px #fff, 860px 40px 1px #fff, 760px 140px 1px #fff, 1260px 120px 1px #fff, 1460px 10px 1px #fff, 1560px 30px 1px #fff, 1590px 124px 1px #fff, 1680px 415px 1px #fff, 1720px 335px 1px #fff, 1000px 212px 1px #fff, 990px 311px 1px #fff, 888px 122px 1px #fff, 765px 10px 1px #fff, 635px 15px 1px #fff, 554px 111px 1px #fff, 455px 222px 1px #fff, 125px 105px 1px #fff, 275px 96px 1px #fff, 245px 40px 1px #fff, 230px 70px 1px #fff, 285px 17px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 430px 210px 1px #fff, 523px 23px 1px #fff, 1650px 335px 1px #fff, 1777px 123px 1px #fff, 1800px 222px 1px #fff, 1360px 140px 1px #fff;
+}
+
+.bio-snows__3 {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(1.5px);
+    background-color: #fff;
+    width: 9px;
+    height: 9px;
+    top: -900px;
+    left: -50px;
+    box-shadow: 20px 20px 1px #fff, 60px 40px 1px #fff, 160px 135px 1px #fff, 260px 240px 1px #fff, 360px 340px 1px #fff, 460px 440px 1px #fff, 560px 340px 1px #fff, 660px 240px 1px #fff, 760px 140px 1px #fff, 260px 640px 1px #fff, 160px 340px 1px #fff, 260px 440px 1px #fff, 760px 140px 1px #fff, 860px 40px 1px #fff, 760px 140px 1px #fff, 1260px 120px 1px #fff, 1460px 10px 1px #fff, 1560px 30px 1px #fff, 1590px 124px 1px #fff, 1680px 415px 1px #fff, 1720px 335px 1px #fff, 1000px 212px 1px #fff, 990px 311px 1px #fff, 888px 122px 1px #fff, 765px 10px 1px #fff, 635px 15px 1px #fff, 554px 111px 1px #fff, 455px 222px 1px #fff, 125px 105px 1px #fff, 275px 96px 1px #fff, 245px 40px 1px #fff, 230px 70px 1px #fff, 285px 17px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 430px 210px 1px #fff, 523px 23px 1px #fff, 1650px 335px 1px #fff, 1777px 123px 1px #fff, 1800px 222px 1px #fff, 1360px 140px 1px #fff;
+    animation-delay: -4s;
+    animation: snowfall 14s linear infinite;
+}
+
+.bio-snows__3:before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    background-color: #fff;
+    left: 200px;
+    top: -550px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 1px #fff, 60px 40px 1px #fff, 160px 135px 1px #fff, 260px 240px 1px #fff, 360px 340px 1px #fff, 460px 440px 1px #fff, 560px 340px 1px #fff, 660px 240px 1px #fff, 760px 140px 1px #fff, 260px 640px 1px #fff, 160px 340px 1px #fff, 260px 440px 1px #fff, 760px 140px 1px #fff, 860px 40px 1px #fff, 760px 140px 1px #fff, 1260px 120px 1px #fff, 1460px 10px 1px #fff, 1560px 30px 1px #fff, 1590px 124px 1px #fff, 1680px 415px 1px #fff, 1720px 335px 1px #fff, 1000px 212px 1px #fff, 990px 311px 1px #fff, 888px 122px 1px #fff, 765px 10px 1px #fff, 635px 15px 1px #fff, 554px 111px 1px #fff, 455px 222px 1px #fff, 125px 105px 1px #fff, 275px 96px 1px #fff, 245px 40px 1px #fff, 230px 70px 1px #fff, 285px 17px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 430px 210px 1px #fff, 523px 23px 1px #fff, 1650px 335px 1px #fff, 1777px 123px 1px #fff, 1800px 222px 1px #fff, 1360px 140px 1px #fff;
+
+}
+
+.bio-snows__3:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    background-color: #fff;
+    left: 300px;
+    top: -650px;
+    border-radius: 50%;
+    filter: blur(1px);
+    box-shadow: 20px 20px 1px #fff, 60px 40px 1px #fff, 160px 135px 1px #fff, 260px 240px 1px #fff, 360px 340px 1px #fff, 460px 440px 1px #fff, 560px 340px 1px #fff, 660px 240px 1px #fff, 760px 140px 1px #fff, 260px 640px 1px #fff, 160px 340px 1px #fff, 260px 440px 1px #fff, 760px 140px 1px #fff, 860px 40px 1px #fff, 760px 140px 1px #fff, 1260px 120px 1px #fff, 1460px 10px 1px #fff, 1560px 30px 1px #fff, 1590px 124px 1px #fff, 1680px 415px 1px #fff, 1720px 335px 1px #fff, 1000px 212px 1px #fff, 990px 311px 1px #fff, 888px 122px 1px #fff, 765px 10px 1px #fff, 635px 15px 1px #fff, 554px 111px 1px #fff, 455px 222px 1px #fff, 125px 105px 1px #fff, 275px 96px 1px #fff, 245px 40px 1px #fff, 230px 70px 1px #fff, 285px 17px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 360px 340px 1px #fff, 430px 210px 1px #fff, 523px 23px 1px #fff, 1650px 335px 1px #fff, 1777px 123px 1px #fff, 1800px 222px 1px #fff, 1360px 140px 1px #fff;
+}
+
+@keyframes snowfall {
+    100% {
+        transform: translateY(1500px);
+    }
+}
+
+@media (max-width: 679.98px) {
+    .wrap {
+        width: 100%;
+    }
+}
+
+@media (max-width: 379.98px) {
+    .bio-name__txt {
+        font-size: 30px;
+    }
+
+    .info__link {
+        width: 100%;
+    }
+
+    .bio-avatar .bio-avatar__inner {
+        width: 150px;
+        height: 150px;
+    }
+
+    .bio {
+        padding-top: 100px;
+    }
+
+    .bio-banner {
+        position: absolute;
+        height: 180px;
+    }
+}
