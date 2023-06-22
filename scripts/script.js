@@ -6,13 +6,13 @@ function renderHTML() {
     const data = {
         fullName: "Trần Phúc Phúc Thoại",
         avatar: "https://www.imgworlds.com/wp-content/uploads/2016/04/img-worlds-of-adventure-new-low.jpg",
-        banner: "https://img.freepik.com/premium-photo/beautiful-mountain-range-reflects-tranquil-water-generative-ai_188544-9117.jpg",
+        banner: "https://images6.alphacoders.com/568/568500.jpg",
         des: "Độc thân nhưng hông có vui tính ^_^",
         infos: [
             {
                 title: "Youtobe",
                 icon: "https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-512.png",
-                link: "https://www.youtube.com/watch?v=65WvgqZbsYk&list=PLx8SQJMwGqHEPfLhJynYn8sogYc0Oc4dU&index=19",
+                link: "https://www.youtube.com/",
             },
             {
                 title: "Facebook",
@@ -28,6 +28,11 @@ function renderHTML() {
                 title: "Zalo",
                 icon: "https://nongsankhaianh.com/wp-content/uploads/2021/10/icon-zalo.png",
                 link: "https://www.tiktok.com/explore?",
+            },
+            {
+                title: "Twitter",
+                icon: "https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-twitter-social-media-round-icon-png-image_6315985.png",
+                link: "https://twitter.com/?lang=vi",
             }
         ]
     }
